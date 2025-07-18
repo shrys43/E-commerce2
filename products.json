@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "title": "Smartphone X Pro",
+        "price": 24999,
+        "rating": 4,
+        "image": "https://via.placeholder.com/300x300?text=Smartphone+X+Pro",
+        "category": "electronics"
+    },
+    {
+        "id": 2,
+        "title": "Wireless Headphones",
+        "price": 1999,
+        "rating": 5,
+        "image": "https://via.placeholder.com/300x300?text=Wireless+Headphones",
+        "category": "electronics"
+    },
+    {
+        "id": 3,
+        "title": "Men's Casual Shirt",
+        "price": 899,
+        "rating": 3,
+        "image": "https://via.placeholder.com/300x300?text=Men's+Casual+Shirt",
+        "category": "fashion"
+    },
+    {
+        "id": 4,
+        "title": "Women's Jeans",
+        "price": 1299,
+        "rating": 4,
+        "image": "https://via.placeholder.com/300x300?text=Women's+Jeans",
+        "category": "fashion"
+    },
+    {
+        "id": 5,
+        "title": "Coffee Maker",
+        "price": 3499,
+        "rating": 5,
+        "image": "https://via.placeholder.com/300x300?text=Coffee+Maker",
+        "category": "appliances"
+    },
+    {
+        "id": 6,
+        "title": "Dining Table Set",
+        "price": 8999,
+        "rating": 4,
+        "image": "https://via.placeholder.com/300x300?text=Dining+Table+Set",
+        "category": "home"
+    },
+    {
+        "id": 7,
+        "title": "Smart TV 55\"",
+        "price": 45999,
+        "rating": 5,
+        "image": "https://via.placeholder.com/300x300?text=Smart+TV+55",
+        "category": "electronics"
+    },
+    {
+        "id": 8,
+        "title": "Action Figure Set",
+        "price": 1499,
+        "rating": 3,
+        "image": "https://via.placeholder.com/300x300?text=Action+Figure+Set",
+        "category": "toys"
+    }
+]
