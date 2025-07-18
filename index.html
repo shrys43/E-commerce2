@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEasy - Online Shopping</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <a href="#" id="logo">ShopEasy</a>
+        </div>
+        
+        <div class="nav-search">
+            <input type="text" id="search-input" placeholder="Search for products...">
+            <button id="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+        
+        <div class="nav-actions">
+            <div class="language-switcher">
+                <select id="language-selector">
+                    <option value="en">English</option>
+                    <option value="hi">हिंदी</option>
+                </select>
+            </div>
+            <a href="#" class="nav-link" id="login-link">Login</a>
+            <a href="#" class="nav-link" id="more-link">More</a>
+            <a href="#" class="nav-link" id="cart-link">
+                <i class="fas fa-shopping-cart"></i> 
+                <span id="cart-count">0</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Categories -->
+    <div class="categories">
+        <div class="category" id="electronics-cat">
+            <i class="fas fa-mobile-alt"></i>
+            <span id="electronics-text">Electronics</span>
+        </div>
+        <div class="category" id="fashion-cat">
+            <i class="fas fa-tshirt"></i>
+            <span id="fashion-text">Fashion</span>
+        </div>
+        <div class="category" id="home-cat">
+            <i class="fas fa-home"></i>
+            <span id="home-text">Home</span>
+        </div>
+        <div class="category" id="appliances-cat">
+            <i class="fas fa-blender"></i>
+            <span id="appliances-text">Appliances</span>
+        </div>
+        <div class="category" id="toys-cat">
+            <i class="fas fa-gamepad"></i>
+            <span id="toys-text">Toys</span>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-container">
+        <h1 id="featured-products">Featured Products</h1>
+        
+        <div class="products-grid" id="products-container">
+            <!-- Products will be loaded here -->
+        </div>
+    </div>
+
+    <!-- Cart Modal -->
+    <div class="modal" id="cart-modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="your-cart">Your Cart</h2>
+            <div id="cart-items">
+                <!-- Cart items will be loaded here -->
+            </div>
+            <div class="cart-total">
+                <h3 id="total-text">Total: ₹<span id="total-amount">0</span></h3>
+                <button id="checkout-btn">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-section">
+            <h3 id="about-us">About Us</h3>
+            <p id="about-text">ShopEasy is your one-stop destination for all your shopping needs.</p>
+        </div>
+        <div class="footer-section">
+            <h3 id="contact">Contact Us</h3>
+            <p id="contact-text">Email: support@shopeasy.com</p>
+        </div>
+        <div class="footer-section">
+            <h3 id="policy">Policies</h3>
+            <ul>
+                <li><a href="#" id="return-policy">Return Policy</a></li>
+                <li><a href="#" id="privacy-policy">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
